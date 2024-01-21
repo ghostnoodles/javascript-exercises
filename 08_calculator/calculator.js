@@ -5,7 +5,7 @@ const add = function() {
 };
 
 const subtract = function() {
-	
+  return arguments[0] - arguments[1]
 };
 
 const sum = function() {
