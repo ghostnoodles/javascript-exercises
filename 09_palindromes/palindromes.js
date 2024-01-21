@@ -1,5 +1,6 @@
-const palindromes = function () {
-
+function palindromes (palindromeWord) {
+    let palindromeReverse = palindromeWord.split('').reverse().join('');
+    return palindromeWord == palindromeReverse ? true:false;
 };
 
 // Do not edit below this line
