@@ -16,7 +16,7 @@ const sum = function(arraySum) {
 
 const multiply = function(arrayMultiply) {
 	let resultMultiply = arrayMultiply[0]
-	for (const i in arrayMultiply) resultMultiply *= arrayMultiply[i + 1]
+	for (let i = 1; i < arrayMultiply.length ; i++) resultMultiply *= arrayMultiply[i]
   return resultMultiply
 };
 
