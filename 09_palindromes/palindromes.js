@@ -1,4 +1,5 @@
 function palindromes (palindromeWord) {
+    if (!/^[a-zA-Z()]+$/.test(palindromeWord)) palindromeWord = palindromeWord.slice(0, -1)
     let palindromeReverse = palindromeWord.split('').reverse().join('');
     return palindromeWord == palindromeReverse ? true:false;
 };
