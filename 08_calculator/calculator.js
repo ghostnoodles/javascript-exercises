@@ -27,7 +27,10 @@ const power = function() {
 
 const factorial = function(number) {
   let sumFactorial = number
-	for (let i = 1; i < number ; i++) sumFactorial *= (number - 1)
+  if (number == 0) return 1
+	for (let i = 1; i < number ; i++) {
+    sumFactorial *= (number - i)
+  }
   return sumFactorial
 };
 
