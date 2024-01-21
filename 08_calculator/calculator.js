@@ -1,5 +1,7 @@
 const add = function() {
-	
+  let resultAdd = 0
+	for (const i in arguments) resultAdd += arguments[i]
+  return resultAdd
 };
 
 const subtract = function() {
