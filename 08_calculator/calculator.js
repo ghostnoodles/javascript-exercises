@@ -25,8 +25,10 @@ const power = function() {
   return arguments[0] ** arguments[1]
 };
 
-const factorial = function() {
-	
+const factorial = function(number) {
+  let sumFactorial = number
+	for (let i = 1; i < number ; i++) sumFactorial *= (number - 1)
+  return resultMultiply
 };
 
 // Do not edit below this line
