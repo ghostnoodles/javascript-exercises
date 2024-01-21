@@ -22,7 +22,7 @@ const multiply = function(arrayMultiply) {
 
 
 const power = function() {
-	
+  return arguments[0] ** arguments[1]
 };
 
 const factorial = function() {
