@@ -1,5 +1,5 @@
 const fibonacci = function(num) {
-    
+    if (num < 0) return 'OPPS';
     let a = 1, b = 0, temp;
 
     while (num-1 >= 0){
